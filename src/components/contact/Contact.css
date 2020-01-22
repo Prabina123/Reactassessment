@@ -1,0 +1,85 @@
+.user_form {
+    margin-top: 30px;;
+}
+.user_form .form_content {
+    padding: 12px 0;
+}
+
+
+.user_form .form_content .form_input,
+  .react-date-picker__wrapper{
+    border: 3px solid #ccc;
+    padding: 5px;
+    margin-left: 15px;;
+}
+.user_form .form_content label {
+    color: rgba(8, 4, 4, 0.637);
+    font-weight: bold;
+    dipaly: inline-block;
+    width: 28%;
+}
+.btn_submit {
+    clear: both;
+}
+ button.submit_button {
+    padding: 8px 48px;
+    width: 40%;
+    /* background: #7b1515; */
+   background: #508fcd;
+    color: #fff;
+    dispaly: inline-block;
+}
+button.submit_button:hover {
+    background: #689ed3;
+}
+.feed {
+    margin-top: 100px;
+}
+.feed th, .feed td {
+    padding: 6px 21px;
+    width: 170px;
+}
+.form_title {
+    text-align: center;
+}
+span.error-validation {
+    left: 101px;
+    color: #ea0c0c;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.form_content .react-date-picker.react-date-picker--closed.react-date-picker--enabled,
+.form_content .react-date-picker.react-date-picker--open.react-date-picker--enabled {
+    padding-left: 20px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ccc;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ccc;
+}
+
+.feed table {
+    border: 2px solid #eee;
+    border-top: 0;
+}
+.center_text {
+    text-align: center;
+}
+
+.contact_form .form_title {
+    margin-top: 100px;
+}
+
+
+
+
+
+
